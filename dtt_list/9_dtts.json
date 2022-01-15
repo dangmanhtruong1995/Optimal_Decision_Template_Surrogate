@@ -1,0 +1,13 @@
+{
+    "dtt_list": [
+        "Unet_vgg16",
+        "Linknet_vgg16",
+        "FPN_vgg16",
+        "Unet_resnet34",
+        "Linknet_resnet34",
+        "FPN_resnet34",
+        "Unet_resnet101",
+        "Linknet_resnet101",
+        "FPN_resnet101"
+    ]
+}

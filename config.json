@@ -1,0 +1,22 @@
+{
+    "num_of_folds": 5,
+    "pr_path_base": "/segmentation_models/code",
+    "gt_path_base": "/segmentation_models/datasets",
+    "optimal_weight_file_base_name": "opt_weight_entropythreshold",
+    "is_train": 1,
+    "optimizer": {
+    "optimizer_name": "PSO",
+ 	"history_folder_base_name": "history",
+	"reload_last_run": 0,
+	"reload_at_generation": 200,
+        "pop_size": 10,
+        "max_gen": 50,
+        "vmin": -0.2772588722239781,
+        "vmax": 0.2772588722239781,
+        "coeff": 1.494,
+        "w0": 0.9,
+        "w1": 0.4,
+        "ref_gap": 7,
+        "ask_to_continue": 0
+    }
+}
